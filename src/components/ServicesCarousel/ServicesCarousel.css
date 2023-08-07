@@ -1,0 +1,15 @@
+
+/* services Carousel */
+.servicescarousel .item img{
+    height: 270px;
+    width: 100%;
+    border-radius: var(--border-radius);
+}
+
+
+
+@media screen and (max-width: 1100px) {
+    .servicescarousel .item img{
+        height: 180px;
+    }
+  }

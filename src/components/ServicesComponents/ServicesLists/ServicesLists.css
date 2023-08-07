@@ -1,0 +1,41 @@
+.serviceslist{
+    width: 100% !important;
+    padding: 10px 20px;
+    max-height: 100vh !important;
+    overflow-y: scroll;
+    overflow-x: none;
+    padding-bottom: 200px;
+    
+}
+
+.serviceslist::-webkit-scrollbar{
+    display: none;
+}
+
+
+
+@media screen and (max-width: 750px) {
+    .serviceslist{
+        
+        padding: 10px 0px;
+        
+        
+        
+    }
+    .serviceslist{
+        
+        max-height: 100% !important;
+        overflow-y: visible;
+        overflow-x: none;
+        padding-bottom: 40px;
+        
+    }
+    .serviceslist .serviceslist__carousel{
+        display: none !important;
+    }
+    .serviceslist{
+        margin-top: -30px;
+        
+    }
+    
+  }

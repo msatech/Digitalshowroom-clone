@@ -1,0 +1,68 @@
+/* Single Service Item */
+
+.single__serviceitem{
+    padding: 20px 0px;
+    border-bottom: 1px solid var(--LightGrey);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* single service item info */
+
+.single__serviceitem__service__info{
+    display: flex;
+    flex-direction: column;
+    padding-right: 50px;
+}
+
+.single__serviceitem__service__info p{
+    padding-bottom: 10px;
+}
+
+
+/* single service item info title */
+
+.single__serviceitem__service__info__title{
+    font-size: 16px;
+    font-weight: 600;
+    color: #020202;
+}
+
+.single__serviceitem__service__info__price{
+    
+    color: #020202;
+}
+
+/* single service item add to cart section  when particular item in cart*/
+
+.single__serviceitem__service__add__cart .single__serviceitem__service__add__cart__item__in__cart{
+    padding:5px 5px;
+    width: 100px;
+    border-radius: 4px;
+    border:none;
+    background-color: transparent;
+    box-shadow: var(--boxshadow);
+    
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+    
+}
+
+/* single service item add to cart section  when particular item not  in cart*/
+
+
+.single__serviceitem__service__add__cart .single__serviceitem__service__add__cart__no__item__in__cart{
+    padding:5px 5px;
+    width: 100px;
+    border-radius: 4px;
+    border:none;
+    background-color: transparent;
+    box-shadow: var(--boxshadow);
+    
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    cursor: pointer;
+}

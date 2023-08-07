@@ -1,0 +1,27 @@
+
+.offerscarousel{
+    
+    
+    height: 130px;
+    border-radius: var(--border-radius);
+    display: none !important;
+    
+    
+}
+
+
+.offerscarousel img{
+    border-radius: var(--border-radius);
+    height: 100%;
+    width: 100%;
+}
+
+
+
+@media screen and (max-width: 750px) {
+    .offerscarousel{
+    
+       display: block !important;
+        
+    }
+  }

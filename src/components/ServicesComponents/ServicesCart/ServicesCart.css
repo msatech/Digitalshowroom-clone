@@ -1,0 +1,82 @@
+.servicescart{
+    width: 100% !important;
+    
+    max-height: 100vh;
+    
+    padding:20px 0px;
+    
+}
+
+
+/* Services Cart Section  */
+.servicescart__section{
+    
+    border: 2px solid var(--LightGrey);
+    height: 400px;
+    width: 100%;
+    border-radius: var(--border-radius);
+    position: fixed;
+    z-index: 1;
+    position: relative;
+    
+    
+}
+
+
+.servicescart__items{
+    padding: 20px;
+    
+}
+
+.servicescart__items__heading{
+    font-size: larger;
+}
+
+
+/* Services Cart Proceed Button */
+
+.servicescart__items__checkout{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #000;
+    height: 60px;
+    border-bottom-left-radius:8px;
+    border-bottom-right-radius:8px;
+    display: flex;
+    align-items: center;
+    padding: 0px 20px;
+    justify-content: space-between;
+}
+
+.servicescart__items__checkout__btn{
+    display: flex;
+    align-items: center;
+}
+
+.servicescart__items__checkout__btn p{
+    margin-left: 8px;
+    color: #fff;
+    font-weight: 500;
+}
+
+.servicescart__items__checkout__btn .shoppingbag__icon{
+    color: #fff;
+    font-size: 30px;
+}
+
+
+.servicescart__items__checkout__view__cart__btn{
+    display: flex;
+    align-items: center;
+}
+
+.servicescart__items__checkout__view__cart__btn p{
+    color: #fff;
+    padding-right: 8px;
+}
+
+
+.servicescart__items__checkout__view__cart__btn .cartnext__icon{
+    color: #fff;
+}

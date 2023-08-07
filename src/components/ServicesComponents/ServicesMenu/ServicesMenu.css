@@ -1,0 +1,49 @@
+
+/* Services Menu Section */
+
+.servicesmenu{
+    border-right: 2px solid var(--LightGrey);
+    height: 100vh;
+    width: 100%;
+    
+}
+
+/* Services Menu Section */
+
+
+
+/* Services Menu HEADING */
+.servicesmenu h3{
+    padding-bottom: 20px;
+    
+    border-bottom: 1px solid var(--LightGrey);
+    
+}
+
+
+
+/* Services Menu Items */
+
+.servicesmenu .servicesmenu__lists{
+    padding:20px 0px;
+}
+
+/* All Services Menu item */
+.servicesmenu .servicesmenu__lists p{
+    padding: 8px 0px;
+    font-size: 14px;
+    font-weight: 400;
+    padding-left:8px;
+    word-break: break-word;
+    cursor: pointer;
+    
+}
+
+
+/* Services Menu Items > item active navigation */
+.servicesmenu .servicesmenu__lists p:first-child{
+    border-left: 2px solid black;
+    color:black;
+    font-weight: 700;
+}
+
